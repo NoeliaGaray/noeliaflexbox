@@ -4,14 +4,12 @@
 }
 
 body {
-  background-image: url(https://wallpaper.dog/large/10862637.jpg);
-  /* background-repeat: no-repeat; */
+  background: #008080;
 }
 
 div {
   display: inline-block;
   text-align: center;
-  /* margin: 1%; */
 }
 
 .encabezado {
@@ -23,6 +21,7 @@ div {
   width: 100%;
   background-color: maroon;
 }
+
 #logo {
   flex-grow: 2;
 }
@@ -38,10 +37,18 @@ div {
 }
 
 .encabezado > div {
-  /* margin-right: 20px; */
   background-color: gold;
 }
 
+.redondo {
+  /* margin: auto; */
+  border-radius: 25px;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0.25em;
+  margin-block: 0.25em;
+}
 .izquierda {
   width: 30%;
   background-color: violet;
