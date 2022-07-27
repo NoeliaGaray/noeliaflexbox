@@ -14,9 +14,9 @@ div {
 
 .encabezado {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   width: 100%;
   background-color: maroon;
@@ -75,14 +75,18 @@ div {
 }
 
 .pie {
+  display: flex;
   width: 100%;
   height: 20px;
   background-color: pink;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
 }
 
 #elemento {
-  order: 1;
-  flex-grow: 3;
+  /* order: 1;
+  flex-grow: 3; */
 }
 
 .altura {
